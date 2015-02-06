@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../VNext.Data/VNext.Data.csproj",
+      "bin": {
+        "assembly": "../../VNext.Data/obj/{configuration}/VNext.Data.dll",
+        "pdb": "../../VNext.Data/obj/{configuration}/VNext.Data.pdb"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+	"webroot": "wwwroot",
+	"version": "1.0.0-*",
+	"exclude": [
+		"wwwroot"
+	],
+	"packExclude": [
+		"node_modules",
+		"bower_components",
+		"**.kproj",
+		"**.user",
+		"**.vspscc"
+	],
+	"dependencies": {
+		"Microsoft.AspNet.Server.IIS": "1.0.0-beta1",
+		"Microsoft.AspNet.Diagnostics": "1.0.0-beta1",
+		"Microsoft.AspNet.Mvc": "6.0.0-beta1",
+		"Microsoft.AspNet.Routing": "1.0.0-beta1",
+		"Microsoft.Framework.DependencyInjection": "1.0.0-beta1",
+		"VNext.AspNet.Library": "1.0.0-*"
+	}
+
+		
+	
+}
